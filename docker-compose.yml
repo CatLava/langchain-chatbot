@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+
+  chat-bot:
+    container_name: chat-bot
+    build: .
+    ports:
+      - "8008:8008"
+    env_file:
+      - .env
+    restart: always
+    environment:
+      - WATCHFILES_FORCE_POLLING=true

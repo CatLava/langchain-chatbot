@@ -1,0 +1,6 @@
+langgraph
+langchain
+boto3
+python-dotenv
+typing
+langchain_anthropic
