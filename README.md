@@ -4,7 +4,7 @@ This is a Python based AI chatbot focused on AWS content. Under the hood, this i
 ## Running the bot
 
 ### Set your keys
-Be sure to set your keys as per the .env.example file 
+Be sure to set your keys as per the .env.example file and rename the file as .env
 
 The bot can be run directly from cli with 
 ```python3 main.py```
